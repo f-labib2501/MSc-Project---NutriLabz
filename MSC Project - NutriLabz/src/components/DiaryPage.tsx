@@ -32,7 +32,7 @@ export default function DiaryPage({
   const [protein, setProtein] = useState(9);
   const [fat, setFat] = useState(0.4);
   
-  // Health metrics state
+  // health metrics state
   const [currentGlucose, setCurrentGlucose] = useState(glucoseLevel);
   // health monitor variables
   // simulate data from wearables and sensors
