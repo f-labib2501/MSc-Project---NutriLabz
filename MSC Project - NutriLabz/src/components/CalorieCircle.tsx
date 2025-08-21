@@ -1,4 +1,4 @@
-// Color-coded macronutrient tracking with mathematical precision
+// colour coded tracking mathematical precision
 interface CalorieCircle{
   calroies: number;
   netCalories: number;
@@ -76,7 +76,7 @@ export default function CalorieCircle({
         </div>
       </div>
 
-        {/* Nutrition summary with calories calculation */ }
+        // nutrition summary with calories calculation
         <div className="text-right">
           <div className="text-white/80 text-lb mb-4">
             {1800 - netCalories > 0 ? `+${1800 - netCalories} remaining` : `${Math.abs(1800 - netCalories)} over`}
