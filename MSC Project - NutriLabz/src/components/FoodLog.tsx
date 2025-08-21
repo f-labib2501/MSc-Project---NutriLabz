@@ -1,6 +1,5 @@
-// Food diary component displaying daily nutritional intake
-// Implements chronological food tracking with calorie summation
-// Conditional rendering prevents empty state display issues
+// food diary component for daily nutritional intake
+
 interface FoodItem {
   name: string; 
   calories: number;
